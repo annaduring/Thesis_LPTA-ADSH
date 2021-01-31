@@ -1,0 +1,5 @@
+2021-01-11 11:38:12.376 | INFO     | __main__:run:12 - Namespace(batch_size=128, code_length=[12, 24, 32, 48], dataset='cifar-100c', device=device(type='cuda', index=0), gamma=200, gpu=0, lr=0.0001, max_epoch=10, max_iter=1, num_query=1000, num_samples=4000, num_workers=0, root='data/', topk=-1)
+2021-01-11 11:39:28.454 | INFO     | adsh:train:99 - [Training time:74.09]
+2021-01-11 11:39:32.732 | INFO     | __main__:run:42 - [code_length:12][map:0.1590][Prec:tensor([0.8280, 0.5707, 0.2721, 0.1457, 0.0946, 0.0750, 0.0647, 0.0562, 0.0526,
+        0.0508, 0.0502, 0.0500, 0.0500], device='cuda:0')][Reca:tensor([0.0705, 0.0780, 0.1376, 0.2239, 0.3249, 0.4998, 0.7062, 0.8423, 0.9405,
+        0.9849, 0.9984, 1.0000, 1.0000], device='cuda:0')]

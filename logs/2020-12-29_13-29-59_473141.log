@@ -1,0 +1,9 @@
+2020-12-29 13:29:59.475 | INFO     | __main__:run:12 - Namespace(batch_size=64, code_length=[12, 24, 32, 48], dataset='cifar-100', device=device(type='cuda', index=0), gamma=200, gpu=0, lr=0.0001, max_epoch=3, max_iter=50, num_query=1000, num_samples=1500, num_workers=4, root='data', topk=-1)
+2020-12-29 13:37:04.586 | INFO     | adsh:train:100 - [Training time:423.12]
+2020-12-29 13:37:09.879 | INFO     | __main__:run:42 - [code_length:12][map:0.4513]
+2020-12-29 13:44:10.728 | INFO     | adsh:train:100 - [Training time:420.56]
+2020-12-29 13:44:15.463 | INFO     | __main__:run:42 - [code_length:24][map:0.5207]
+2020-12-29 13:51:15.094 | INFO     | adsh:train:100 - [Training time:419.34]
+2020-12-29 13:51:19.873 | INFO     | __main__:run:42 - [code_length:32][map:0.5107]
+2020-12-29 13:58:22.881 | INFO     | adsh:train:100 - [Training time:422.71]
+2020-12-29 13:58:27.911 | INFO     | __main__:run:42 - [code_length:48][map:0.5534]

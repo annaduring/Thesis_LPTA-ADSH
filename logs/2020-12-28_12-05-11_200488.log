@@ -1,0 +1,3 @@
+2020-12-28 12:05:11.202 | INFO     | __main__:run:12 - Namespace(batch_size=64, code_length=[12, 24, 32, 48], dataset='cifar-100', device=device(type='cuda', index=0), gamma=200, gpu=0, lr=0.0001, max_epoch=10, max_iter=10, num_query=1000, num_samples=1000, num_workers=0, root='data', topk=-1)
+2020-12-28 12:08:22.069 | INFO     | adsh:train:100 - [Training time:188.93]
+2020-12-28 12:08:24.055 | INFO     | __main__:run:42 - [code_length:12][map:0.3337]

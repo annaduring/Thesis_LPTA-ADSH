@@ -1,0 +1,3 @@
+2021-01-14 01:54:54.652 | INFO     | __main__:run:12 - Namespace(batch_size=128, code_length=[12, 24, 32, 48], dataset='cifar-100f', device=device(type='cuda', index=0), gamma=200, gpu=0, lr=0.0001, max_epoch=10, max_iter=30, num_query=1000, num_samples=3000, num_workers=0, root='data/', topk=10)
+2021-01-14 02:17:05.945 | INFO     | adsh:train:101 - [Training time:1329.38]
+2021-01-14 02:17:08.269 | INFO     | __main__:run:42 - [code_length:12][map:0.2219]

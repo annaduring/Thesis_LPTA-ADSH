@@ -1,0 +1,11 @@
+
+NO ATTENTION + Pretrained
+2020-12-28 23:08:49.453 | INFO     | __main__:run:12 - Namespace(batch_size=64, code_length=[12, 24, 32, 48], dataset='cifar-100', device=device(type='cuda', index=0), gamma=200, gpu=0, lr=0.0001, max_epoch=3, max_iter=100, num_query=1000, num_samples=2000, num_workers=4, root='data', topk=-1)
+2020-12-28 23:24:54.929 | INFO     | adsh:train:100 - [Training time:963.49]
+2020-12-28 23:25:00.040 | INFO     | __main__:run:42 - [code_length:12][map:0.5756]
+2020-12-28 23:41:08.661 | INFO     | adsh:train:100 - [Training time:968.35]
+2020-12-28 23:41:13.461 | INFO     | __main__:run:42 - [code_length:24][map:0.6458]
+2020-12-28 23:57:27.851 | INFO     | adsh:train:100 - [Training time:974.10]
+2020-12-28 23:57:32.580 | INFO     | __main__:run:42 - [code_length:32][map:0.6828]
+2020-12-29 00:13:50.135 | INFO     | adsh:train:100 - [Training time:977.26]
+2020-12-29 00:13:54.828 | INFO     | __main__:run:42 - [code_length:48][map:0.6627]
