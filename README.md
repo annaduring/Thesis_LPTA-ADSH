@@ -1,4 +1,4 @@
-# Asymmetric Deep Supervised Hashing
+# Asymmetric Deep Supervised Hashing With Attention Maps
 
 ## REQUIREMENTS
 1. pytorch >= 1.0
@@ -6,7 +6,7 @@
 
 ## DATASETS
 1. [CIFAR-10](http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz)
-2. [NUS-WIDE](https://pan.baidu.com/s/1f9mKXE2T8XpIq8p7y8Fa6Q) Password: uhr3
+1. [CIFAR-100](http://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz)
 
 ## USAGE
 ```
@@ -44,11 +44,8 @@ optional arguments:
 ## EXPERIMENTS
 cifar10: 1000 query images, 2000 sampling images.
 
-nus-wide: Top 21 classes, 2100 query images, 2000 sampling images.
-
-model: Alexnet
+model: Learn to Pay Attention (before max-pooling
 
  | | 12 bits | 24 bits | 32 bits | 48 bits 
    :-:   |  :-:    |   :-:   |   :-:   |   :-:     
 cifar-10 MAP@ALL | 0.9075 | 0.9047 | 0.9116 | 0.9045
-nus-wide MAP@5000 | 0.8698 | 0.9022 | 0.9079 | 0.9133
